@@ -12,7 +12,9 @@
   * O(n!)
 * Space complexity
 * Array
-  * Lookup --> O(1)
+  * Lookup --> (If we have index) O(1)
+    * Linear search  --> O(n)
+    * Binary search  --> O(log n)
   * Insert --> O(1)
     * If need growth --> O(n)
   * Delete --> O(1)
